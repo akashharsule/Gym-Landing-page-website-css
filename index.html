@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rs Gym</title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<style>
+    body {
+        font-family: 'Yanone Kaffeesatz', sans-serif;
+        margin: 0px;
+        padding: 0px;
+        background: url('img/gym2.jpg');
+        color: white;
+
+
+    }
+
+    .left {
+        display: inline-block;
+        /*border: 3px solid green;*/
+        position: absolute;
+        left: 15px;
+        top: 0px;
+    }
+
+    .left img {
+        width: 170px;
+
+    }
+
+    .mid {
+        display: block;
+        width: 50%;
+        margin: 28px auto;
+        /*border: 3px solid red;*/
+
+
+
+
+    }
+
+    .right {
+        display: inline-block;
+
+        /*border: 3px solid yellow;*/
+        margin: 3px 3px;
+        color: white;
+        position: absolute;
+        right: 15px;
+        top: 18px;
+    }
+
+    .btn {
+
+        margin: 0px 10px;
+        color: rgb(182, 178, 178);
+        background: rgb(46, 39, 39);
+        padding: 6px 20px;
+        border: 2px solid rgb(201, 196, 196);
+        border-radius: 24px;
+        cursor: pointer;
+
+    }
+
+    .btn:hover {
+        background-color: rgb(95, 79, 79);
+        color: honeydew;
+
+    }
+
+    .navbar {
+        color: white;
+    }
+
+    .navbar li {
+
+        display: inline-block;
+        color: white;
+        font-size: 18px;
+    }
+
+    .navbar li a {
+        color: rgb(182, 178, 178);
+        text-decoration: none;
+        padding: 11px 30px;
+        font-size: 22px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+
+        text-decoration: underline;
+        color: rgb(255, 254, 254);
+
+    }
+
+    .contain {
+        border: 3px solid rgb(131, 126, 126);
+        background-color: rgb(74, 71, 64, 65%);
+        margin: 86px 430px;
+        padding: 10px 10px;
+        border-radius: 10px;
+
+    }
+
+    .contain h1 {
+        margin: 10px 113px;
+    }
+
+    .form-group input {
+        border: 1px solid rgb(226 218 218);
+        border-radius: 19px;
+        padding: 10px;
+        width: 264px;
+        display: block;
+        background-color: rgb(21 15 15);
+        text-align: center;
+        color: rgb(201, 196, 196);
+        margin: 15px auto;
+    }
+
+    .contain button {
+        background-color: #423f3f;
+        padding: 10px;
+        width: 290px;
+        display: block;
+        margin: 15px auto;
+
+    }
+</style>
+
+<body>
+    <header class="header">
+
+        <div class="left">
+            <img src="/img/rs gym.png" alt="">
+
+
+        </div>
+
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Supplements</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+
+        </div>
+
+        <div class="right">
+            <button class="btn">Call us now</button><button class="btn">Email us</button>
+
+        </div>
+
+    </header>
+
+    <div class="contain">
+        <h1>Register Now, to join us!</h1>
+        <form action="no.php">
+            <div class="form-group">
+                <input type="text" placeholder="Enter Your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Enter Your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Enter Your DOB">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Enter Your Address">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Enter Your Contact No.">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Enter Your Email">
+            </div>
+            <button class="btn">Submit</button>
+
+        </form>
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+</body>
+
+</html>
